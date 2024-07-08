@@ -25,7 +25,7 @@ $cursos = $buscador->buscar('/cursos-online-programacao/php');
 echo "penis";
 foreach($cursos as $curso)
 {
-    echo $curso . PHP_EOL;
+    exibe($curso);
 
 }
 
